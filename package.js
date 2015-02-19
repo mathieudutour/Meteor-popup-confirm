@@ -1,6 +1,6 @@
 Package.describe({
   name: 'matdutour:popup-confirm',
-  version: '0.1.16',
+  version: '0.1.17',
   summary: 'A clean and easy to use confirmation popup',
   git: 'https://github.com/mathieudutour/Meteor-popup-confirm.git',
   documentation: 'README.md'
