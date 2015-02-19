@@ -13,7 +13,8 @@ Usage
       message: "Are you sure ?",
       title: "Confirmation",
       cancelText: "Cancel",
-      okText: "Ok"
+      okText: "Ok",
+      success: true // wether the button should be green or red
     }, function (ok) {
       // ok is true if the user clicked on "ok", false otherwise
     });
