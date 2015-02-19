@@ -1,10 +1,8 @@
 .pc-container {
   position: fixed;
-  top: 50%;
-  left: 50%;
+  top: calc(50% - 130px);
+  left: calc(50% - 225px);
   width : 450px;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
   height: auto;
   z-index: 10000;
   background: #FFF;
@@ -13,7 +11,7 @@
   padding: 2em;
 }
 
-.pc-container > .pc-button{
+.pc-container .pc-button{
   margin-top: 20px;
   background: transparent;
   border: 2px solid currentColor;
@@ -24,29 +22,34 @@
   text-decoration: none;
   text-align: center;
   height: 54px;
-  width: 100%;
+  width: 45%;
+  float: left;
   -webkit-tap-highlight-color: transparent;
   -webkit-transition: background-color 0.3s;
   transition:         background-color 0.3s;
 }
 
-.pc-container > .pc-button:hover {
+.pc-container .pc-button:last-child{
+  margin-left: 10%;
+}
+
+.pc-container .pc-button:hover {
   background: currentColor;
 }
 
-.pc-container > .pc-button:hover > span {
+.pc-container .pc-button:hover > span {
   color: #FFF;
 }
 
-.pc-container > .pc-button.pc-button-cancel {
+.pc-container .pc-button.pc-button-cancel {
   color: #d4d4d4;
 }
 
-.pc-container > .pc-button.pc-button-error {
+.pc-container .pc-button.pc-button-error {
   color: #ED5565;
 }
 
-.pc-container > .pc-button.pc-button-success {
+.pc-container .pc-button.pc-button-success {
   color: #A0D468;
 }
 
