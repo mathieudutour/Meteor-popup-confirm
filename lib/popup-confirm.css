@@ -50,23 +50,23 @@
   color: #A0D468;
 }
 
-.pc-container.enter {
-  -webkit-animation:  up 1290ms linear both;
-  animation:          up 1290ms linear both;
+.pc-container.pc-enter {
+  -webkit-animation:  pc-up 1290ms linear both;
+  animation:          pc-up 1290ms linear both;
 }
 
-.pc-container.leave {
-  -webkit-animation:  down 500ms linear forwards;
-  animation:          down 500ms linear forwards;
+.pc-container.pc-leave {
+  -webkit-animation:  pc-down 500ms linear forwards;
+  animation:          pc-down 500ms linear forwards;
 }
 
-@keyframes down {
+@keyframes pc-down {
   0% {transform: translate(0,0);}
   99.99% {transform: translate(0,250%); opacity:1}
   100% {transform: translate(-300%,0);opacity:0}
 }
 
-@-webkit-keyframes down {
+@-webkit-keyframes pc-down {
   0% {-webkit-transform: translate(0,0);}
   99.99% {-webkit-transform: translate(0,250%); opacity:1}
   100% {-webkit-transform: translate(-300%,0);opacity:0}
@@ -74,7 +74,7 @@
 
 /* Generated with Bounce.js. Edit at http://goo.gl/dvi8wI */
 
-@-webkit-keyframes up {
+@-webkit-keyframes pc-up {
   0% { opacity: 0;}
   0.0001% { opacity: 1; -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 500, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 500, 0, 1); }
   1.666667% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1.2997, 0, 0, 0, 0, 1, 0, 0, 369.63403, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1.2997, 0, 0, 0, 0, 1, 0, 0, 369.63403, 0, 1); }
@@ -139,7 +139,7 @@
   100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
 }
 
-@keyframes up {
+@keyframes pc-up {
   0% { opacity: 0;}
   0.0001% { opacity: 1; -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 500, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 500, 0, 1); }
   1.666667% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1.2997, 0, 0, 0, 0, 1, 0, 0, 369.63403, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1.2997, 0, 0, 0, 0, 1, 0, 0, 369.63403, 0, 1); }
