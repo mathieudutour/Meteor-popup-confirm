@@ -5,8 +5,13 @@
   width: 100%;
   height: 100%;
   z-index: 9999;
-  -webkit-animation:  pc-dimmer 500ms linear both;
-  animation:          pc-dimmer 500ms linear both;
+  -webkit-animation:  pc-dimmer 500ms ease both;
+  animation:          pc-dimmer 500ms ease both;
+}
+
+.pc-dimmer.pc-leave {
+  -webkit-animation:  pc-dimmer 500ms ease reverse both;
+  animation:          pc-dimmer 500ms ease reverse both;
 }
 
 .pc-container {
@@ -70,8 +75,8 @@
 }
 
 .pc-container.pc-leave {
-  -webkit-animation:  pc-down 500ms linear forwards;
-  animation:          pc-down 500ms linear forwards;
+  -webkit-animation:  pc-down 500ms linear both;
+  animation:          pc-down 500ms linear both;
 }
 
 @keyframes pc-dimmer {
