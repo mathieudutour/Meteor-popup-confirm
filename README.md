@@ -9,7 +9,7 @@ Usage
 =====
 
 
-	Confirmation({
+	new Confirmation({
       message: "Are you sure ?",
       title: "Confirmation",
       cancelText: "Cancel",
