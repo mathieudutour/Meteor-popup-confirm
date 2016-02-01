@@ -14,7 +14,8 @@ Usage
       title: "Confirmation",
       cancelText: "Cancel",
       okText: "Ok",
-      success: true // wether the button should be green or red
+      success: true, // whether the button should be green or red
+      focus: "cancel" // which button to autofocus, "cancel" (default) or "ok", or "none"
     }, function (ok) {
       // ok is true if the user clicked on "ok", false otherwise
     });
