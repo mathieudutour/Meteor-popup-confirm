@@ -49,12 +49,14 @@
   margin-left: 10%;
 }
 
-.pc-container .pc-button:hover {
+.pc-container .pc-button:hover, .pc-container .pc-button:focus {
   background: currentColor;
+  outline: none;
 }
 
-.pc-container .pc-button:hover > span {
+.pc-container .pc-button:hover > span, .pc-container .pc-button:focus > span {
   color: #FFF;
+  outline: none;
 }
 
 .pc-container .pc-button.pc-button-cancel {
