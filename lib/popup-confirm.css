@@ -27,6 +27,12 @@
   padding: 2em;
 }
 
+@media (max-width:768px) {
+  .pc-container {
+    width : 350px;
+  }
+}
+
 .pc-container .pc-button{
   margin-top: 20px;
   background: transparent;
