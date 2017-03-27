@@ -30,6 +30,7 @@
 @media (max-width:768px) {
   .pc-container {
     width : 350px;
+    left: calc(50% - 175px);
   }
 }
 
